@@ -61,15 +61,16 @@ body {
   width: 80%;
   margin: auto;
   display: flex;
-  gap: 20%;
+  gap: 100px;
   margin-bottom: 0;
+
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 35%;
+  max-width: 45%;
 }
 .text {
     font-size: 75px;
@@ -167,6 +168,153 @@ body {
     font-size: 14px;
     font-weight: 500;
     color: #1D1D1FBF;
+}
+
+/*Benifit*/
+
+.benifit-container{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    padding: 60px 0;
+    gap: 100px;
+    align-items: center;
+}
+
+.benifit-container .image{
+    max-width: 42%;
+    background: #F3FAFB;
+    border-radius: 24px;
+    margin-left: 20px;
+
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+.benifits{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.benifits .subtle{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1d1d1f;
+
+}
+
+.benifits .heading{
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+.benifit-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.benifit-item .item{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.benifit-item .item p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Stars */
+
+.star-container{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    padding: 60px 0;
+    gap: 100px;
+    align-items: center;
+}
+
+.star-container .star-image{
+    max-width: 40%;
+    background: #F3FAFB;
+}
+
+.star-image img{
+    width: 100%;
+    height: auto;
+    padding:0 0 60px 60px;
+}
+
+.stars{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.stars .subtle{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1d1d1f;
+
+}
+
+.stars .heading{
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+.star-item{
+    display: flex;
+    gap: 40px;
+}
+
+.star-item .item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.star-item .number{
+    font-size: 40px;
+    font-weight: 600;
+    color: #06C167;
+}
+
+.star-item .name{
+    font-size: 15px;
+    font-weight: 400;
+    color: #1d1d1fbf;
+}
+
+.star-button button{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    background: #06C167;
+    border: 1px solid #06C167;
+    border-radius: 8px;
+}
+
+.star-button a{
+    text-decoration: none;
+    color: #ffffff;
+    
+
 }
 
 /* Products */
